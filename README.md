@@ -1,3 +1,7 @@
+Deployed:
+
+https://taketakehomecare.netlify.app
+
 Project Overview
 This project integrates Magic Link Authentication and Google OAuth for user login and metadata retrieval. The application successfully implements email-based OTP login and displays user metadata. However, there is an issue with the Google OAuth integration.
 
