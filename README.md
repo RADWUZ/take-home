@@ -48,7 +48,7 @@ Update Security Policies:
 
 Refine or further relax security policies temporarily to isolate whether CSP configurations are the root cause of the cookie issue.
 Current Status:
-The application works flawlessly with email OTP login, displaying user metadata correctly. However, Google OAuth is currently unable to retrieve and display user information due to the aforementioned cookie issue.
+The application works flawlessly with email OTP login, but Google OAuth is currently unable to retrieve and display user information.
 
 )
 
