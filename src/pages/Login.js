@@ -38,7 +38,7 @@ const Login = () => {
     await magic.oauth2.loginWithRedirect({
       provider: 'google',
       //This should point to the current domain.
-      redirectURI: window.location.origin,  //This should point to the current domain.
+      redirectURI: "https://auth.magic.link/v1/oauth2/wOxhmYizUGCglqt6rm80A_xTWmYPdWlFeQ5oj4yi9VU=/callback",  //This should point to the current domain.
       scope: ['openid', 'email', 'profile'],
     });
     
@@ -71,4 +71,5 @@ const Login = () => {
 };
 
 export default Login;
+
 
