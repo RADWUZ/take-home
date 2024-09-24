@@ -1,4 +1,4 @@
-import { useCallback, useState, useEffect } from "react";
+import { useCallback, useState} from "react";
 import { Routes, Route, useNavigate } from "react-router-dom";
 import { magic } from "./lib/magic";
 import Login from "./pages/Login";
